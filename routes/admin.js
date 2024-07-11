@@ -50,7 +50,7 @@ router.get("/quiz/:page/:limit", async (req, res, next) => {
 
     const quizList = await quizModel.paginate({}, { page, limit });
 
-    res.status(201).send({
+    res.status(200).send({
       quizList,
     });
   } catch (error) {

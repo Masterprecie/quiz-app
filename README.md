@@ -20,7 +20,7 @@ This is a quiz game application where an admin can create and manage quizzes, an
    ```
 2. Navigate to the project directory:
    ```sh
-   cd quiz-game
+   cd quiz-app
    ```
 3. Install dependencies:
    ```sh
@@ -34,7 +34,7 @@ This is a quiz game application where an admin can create and manage quizzes, an
    ```
 5. Start the application:
    ```sh
-   npm run dev
+   npm start
    ```
 
 ## Usage
@@ -83,3 +83,7 @@ This is a quiz game application where an admin can create and manage quizzes, an
 ## License
 
 This project is licensed under the MIT License.
+
+## Documentation
+
+`https://documenter.getpostman.com/view/21468149/2sA3e5cSkT`
