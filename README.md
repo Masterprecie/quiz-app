@@ -86,4 +86,6 @@ This project is licensed under the MIT License.
 
 ## Documentation
 
-`https://documenter.getpostman.com/view/21468149/2sA3e5cSkT`
+```sh
+https://documenter.getpostman.com/view/21468149/2sA3e5cSkT
+```
