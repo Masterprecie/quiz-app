@@ -16,7 +16,7 @@ This is a quiz game application where an admin can create and manage quizzes, an
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/masterprecie/quiz-game.git
+   git clone https://github.com/Masterprecie/quiz-app.git
    ```
 2. Navigate to the project directory:
    ```sh
