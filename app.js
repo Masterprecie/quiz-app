@@ -38,7 +38,7 @@ app.use("/v1/admin", adminRouter);
 app.use("/v1/user", userRouter);
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome to Precious Quiz Game!");
 });
 
 // catch 404 and forward to error handler
