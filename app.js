@@ -37,6 +37,10 @@ app.use("/v1/auth", authRouter);
 app.use("/v1/admin", adminRouter);
 app.use("/v1/user", userRouter);
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
