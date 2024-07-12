@@ -70,13 +70,20 @@ router.get("/unanswered-question-numbers", async (req, res, next) => {
       })
       .populate("quiz", "questionNumber");
     const answeredNumber = answeredQuiz.map((q) => q.quiz.questionNumber);
+    const totalQuestions = await quizModel.countDocuments({});
+
     const unansweredQuestions = [];
 
     for (let i = 1; i <= totalQuestions; i++) {
-      if (!answeredNumber.includes(i)) {
+      if (answeredNumber.includes(i)) {
         unansweredQuestions.push({
           questionNumber: i,
           state: "answered",
+        });
+      } else {
+        unansweredQuestions.push({
+          questionNumber: i,
+          state: "unanswered",
         });
       }
     }
