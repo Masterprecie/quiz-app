@@ -69,7 +69,7 @@ router.get("/quiz-by-id/:id", async (req, res, next) => {
 
     const quiz = await quizModel.findById(id);
 
-    res.status(201).send({
+    res.status(200).send({
       quiz,
     });
   } catch (error) {

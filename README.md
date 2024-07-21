@@ -11,6 +11,7 @@ This is a quiz game application where an admin can create and manage quizzes, an
 - Each quiz consists of multiple-choice questions.
 - Tracks user quiz history.
 - Pagination support for quiz history.
+- Testing with jest and supertest.
 
 ## Installation
 
